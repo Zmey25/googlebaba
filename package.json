@@ -9,7 +9,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "@gradio/client": "^2.2.3",
+    "@gradio/client": "0.19.0",
     "express": "^4.17.1"
   }
 }
