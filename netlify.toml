@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build" # Используйте ваш скрипт для сборки проекта, если он необходим
+
+[dev]
+  command = "npm run start" # Используйте ваш скрипт для запуска сервера в режиме разработки
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/predict/*"
+  to = "/predict/:splat"
+  status = 200
+  force = true
